@@ -4,29 +4,37 @@
   box-sizing: border-box;
   font-family: "Playfair Display", serif;
 }
+
 .carousel-inner img {
   width: 100%;
   height: 92vh;
 }
-.heading{
+
+.heading {
   font-size: 2.5rem;
   text-align: center;
 }
-#aboutimg {
+
+#about-img {
   width: 100%;
   height: 430px;
 }
 
-#morecarscard{
+#jumbotron-heading {
+  padding: 3rem 2rem;
+}
+
+#more-cars-card {
   padding: 20px;
 }
 
 .card {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   margin-bottom: 20px;
 }
-.card:hover {
+
+.services-card:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
   transform: translateY(-20px);
 
@@ -38,13 +46,16 @@
   align-items: center;
   padding-top: 20px;
 }
-.logo img{
+
+.logo img {
   width: 280px;
   height: 150px;
 }
-#carddiv1 .div1{
+
+#footer-div1 .div1 {
   margin-top: 30px;
 }
+
 .div1 h4,
 .div1 p,
 .div1 a {
@@ -52,15 +63,16 @@
 }
 
 .social-icon {
-  font-size: 24px; 
-  margin-right: 10px; 
-  color: #ffffff; 
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ffffff;
 }
+
 .social-icon:hover {
   color: #fff;
 }
 
-#carddiv3 .div3{
+#footer-div3 .div3 {
   margin-left: 170px;
   margin-top: 30px;
 }
@@ -72,37 +84,123 @@
   justify-content: center;
   align-items: center;
 }
+
 .cc1img {
   max-width: 100%;
   height: 20em;
   margin-bottom: 50px;
 }
-.text-center {
+
+#ul-parent-div {
+  text-align: center;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.text-content {
   text-align: center;
   font-size: 20px;
-  /* margin-left: 30px; */
+  /* margin-right: 100px; */
 }
+
 .car-p {
   padding: 20px;
-  font-family: font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin-bottom: 50px;
-  text-align : justify;
+  text-align: justify;
 }
+
 .cc2img {
   max-width: 100%;
   height: 20em;
   margin-bottom: 30px;
 }
 
+/* ------     Mobile CSS    ---------- */
+
+@media screen and (max-width: 599px) {
+
+  .carousel-mobile {
+    height: 25rem;
+  }
+
+  .carousel-inner img {
+    height: 25rem;
+  }
+
+  #about-us-section {
+    /* text-align: center; */
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #about-img {
+    height: 300px;
+  }
+
+  .our-mission-heading {
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  #more-info-btn {
+    text-align: center;
+    display: block;
+    margin: 2rem auto;
+  }
+
+  #about-us-content {
+    margin: 2rem 0;
+  }
+
+  #footer-div1 .div1, #footer-div3 .div3 {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  /* ---------- Car Profile --------------*/
 
 
+  #ul-parent-div {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 
+  .list-group {
+    list-style: none;
+    padding: 0;
+    width: 325px;
+    margin: 0 auto;
+  }
 
+  #list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .text-content {
+    text-align: center;
+    font-size: 20px;
+    /* margin-right: 100px; */
+  }
 
-
-
-
-
-
+  .car-name {
+    font-size: 35px;
+  }
+}

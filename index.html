@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Vintge Cars</title>
+    <title>Vintage Cars</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +13,10 @@
 <body>
 
     <div id="navbar-placeholder"></div>
-    
-    <!------COURASOL START--------->
 
-    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <!------    CAROUSEL START      --------->
+
+    <div id="demo" class="carousel slide carousel-mobile" data-ride="carousel" data-interval="1500">
         <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
@@ -61,37 +61,38 @@
         </a>
     </div>
 
-    <!------ABOUT US PART START------>
+    <!------     ABOUT US PART START    ------>
 
     <section class="my-5">
         <div class="py-5">
             <h1 class="heading">About Us</h1>
         </div>
-        <div class="container-fluid" id="abtus">
+        <div class="container-fluid" id="about-us-section">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="images/c5.jpg" class="img-fluid" id="aboutimg">
+                    <img src="images/c5.jpg" class="img-fluid" id="about-img">
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <h1>OUR MISSION</h1>
+                    <h1 class="our-mission-heading">OUR MISSION</h1>
                     <p style="font-size:22px;">To create a website where viewers can see vintage cars informatiom
                         before
                         purchasing or just for
-                        knowledge and excitment for cars.<br>
-                        VintageCars.com brings buyers and sellers together to easily and safely buy, sell and enjoy
+                        knowledge and excitment for cars.</p>
+                    <p style="font-size:22px;">VintageCars.com brings buyers and sellers together to easily and safely
+                        buy, sell and enjoy
                         classic and collector vehicles. It is a vibrant marketplace built on a technology platform
                         that
                         continues to evolve to meet the needs of all generations of car lovers with innovative
                         solutions, state of the art technology, first-class customer service and a passion for
                         automobiles that powers the company toward continued growth.</p>
-                    <a href="aboutus.html" class="btn btn-dark"
+                    <a href="aboutus.html" class="btn btn-dark" id="more-info-btn"
                         style="width: 110px; padding: 10px; font-size: 18px; margin-top: 11px;">More Info</a>
                 </div>
             </div>
         </div>
     </section>
-    <!---our services part starts---------->
+    <!---   our services part starts    ---------->
 
     <section class="my-4">
         <div class="py-4">
@@ -100,8 +101,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-12">
-                    <div class="card">
-                        <img class="card-img-top" src="images/cc1.png" alt="Card image">
+                    <div class="card services-card">
+                        <a href="car-profile/car1.html">
+                            <img class="card-img-top" src="images/cc1.png" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Jaguar E-Type</h2>
                             <h3 class="font-weight-bold">$142,500</h3>
@@ -111,8 +114,10 @@
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
-                    <div class="card">
-                        <img class="card-img-top" src="images/cc2.jpg" alt="Card image" height="300px">
+                    <div class="card services-card">
+                        <a href="car-profile/car2.html">
+                            <img class="card-img-top" src="images/cc2.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Chevrolet Corvette</h2>
                             <h3 class="font-weight-bold">$159,900</h3>
@@ -122,8 +127,10 @@
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
-                    <div class="card">
-                        <img class="card-img-top" src="images/cc3.jpg" alt="Card image" height="300px">
+                    <div class="card services-card">
+                        <a href="car-profile/car3.html">
+                            <img class="card-img-top" src="images/cc3.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Lamborghini Miura</h2>
                             <h3 class="card-text">$1,095,000</h3>
@@ -137,17 +144,19 @@
 
         </div>
     </section>
-    <!-----MORE CARS PART STARTS----------->
+    <!-----    MORE CARS PART STARTS         ----------->
 
     <section class="my-4">
         <div class="py-4">
             <h1 class="heading">More Cars</h1>
         </div>
-        <div class="container-fluid" id="morecarscard">
+        <div class="container-fluid" id="more-cars-card">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc4.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car4.html">
+                            <img class="card-img-top" src="images/cc4.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Porsche 911</h2>
                             <h3 class="font-weight-bold">$99,000,000</h3>
@@ -158,7 +167,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc5.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car5.html">
+                            <img class="card-img-top" src="images/cc5.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Rolls-Royce Dawn Drophead</h2>
                             <h3 class="font-weight-bold">$99,950</h3>
@@ -169,7 +180,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc6.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car6.html">
+                            <img class="card-img-top" src="images/cc6.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Mercedes SL 300 Gullwing</h2>
                             <h3 class="font-weight-bold">$1,459,000</h3>
@@ -181,7 +194,9 @@
 
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc7.jpg" alt="Card image">
+                        <a href="car-profile/car7.html">
+                            <img class="card-img-top" src="images/cc7.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Ferrari 250 GTO</h2>
                             <h3 class="font-weight-bold">$48,400,000</h3>
@@ -192,7 +207,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc8.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car8.html">
+                            <img class="card-img-top" src="images/cc8.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Aston Martin DB4</h2>
                             <h3 class="font-weight-bold">$1,325,000</h3>
@@ -203,7 +220,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc9.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car9.html">
+                            <img class="card-img-top" src="images/cc9.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Ford Model T</h2>
                             <h3 class="font-weight-bold">$39,900</h3>
@@ -214,7 +233,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc10.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car10.html">
+                            <img class="card-img-top" src="images/cc10.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">Ferrari 308 GTS</h2>
                             <h3 class="font-weight-bold">$99,000</h3>
@@ -225,7 +246,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc11.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car11.html">
+                            <img class="card-img-top" src="images/cc11.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">DeTomaso Pantera</h2>
                             <h3 class="font-weight-bold">$97,950</h3>
@@ -236,7 +259,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/cc12.jpg" alt="Card image" height="300px">
+                        <a href="car-profile/car12.html">
+                            <img class="card-img-top" src="images/cc12.jpg" alt="Card image" height="340px">
+                        </a>
                         <div class="card-body">
                             <h2 class="card-title">McLaren F1</h2>
                             <h3 class="font-weight-bold">$15,600,000</h3>
